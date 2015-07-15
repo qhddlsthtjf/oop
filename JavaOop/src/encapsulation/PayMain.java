@@ -26,7 +26,7 @@ public class PayMain {
 		payBean.setName(name);
 		payBean.setSalary(salary);
 		
-		
+		System.out.println(payBean.getName()+"님 반갑습니다.");
 		System.out.println(payBean.toString());
 		
 	}

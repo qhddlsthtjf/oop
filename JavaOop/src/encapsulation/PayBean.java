@@ -5,13 +5,15 @@ public class PayBean {
 	//Bean 클래스라면 멤버필드 +멤버메소드 
 	private String name; //멤버필드 변수는 초기화 하지 않는다..!!
 	private int salary;
-	private int tax; 
-	private int money;
+	
 	
 	//멤버 메소드 영역이 시작됩니다. 
 	//setter는 스캐너로 받는놈 생성해줘야함
 	public void setName(String name) {
 		this.name = name;
+	}
+	public String getName() {
+		return name;
 	}
 	public void setSalary(int salary) {
 		this.salary = salary;
