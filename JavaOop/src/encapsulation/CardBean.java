@@ -38,7 +38,7 @@ public CardBean(String name) {
 		return num1;
 	}
 	
-	
+	/*
 	public String getWinner() { //getter 에서 문제해결 패턴 
 	 	String winner ="";//제일 먼저 리턴타입을 카피 
 		
@@ -53,14 +53,14 @@ public CardBean(String name) {
 		}
 		return winner;
 	}
+	*/
 	
 	
 	
 	
-	
-	//@Override
-	//public String toString() {
-	//	
-	//	return "["+getName1()+":"+ getNum1() +"] vs ["+getName2()+":"+getNum2()+"]\n"+getWinner();
-	//}
+	/*@Override
+	public String toString() {
+		
+		return "["+getName1()+":"+ getNum1() +"] vs ["+getName2()+":"+getNum2()+"]\n"+getWinner();
+	} */
 }//[홍길동 : 7]
