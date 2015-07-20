@@ -35,7 +35,7 @@ public class BankBook implements Account{
 	// 위치 :필드 --> {인변, 상수,클래스(스태틱변수)변수} <멤변
 
 	/* ==================멤버 필드=================== */
-	private static String BANK; // 상수와 스태틱 처리는 대문자로 변수이름을 써준다.
+	public static String BANK; // 상수와 스태틱 처리는 대문자로 변수이름을 써준다.
 	private String name;
 	private int bankbookNo, money, pass; // 컨트롤 시프트 / 하면 다중주석 된다 드래그 한다음에
 	private String msg;//유효성체크 결과를 알려줘서 고객이 만약 실수로 그렇게 입력했다면 공지해주는 변수 
