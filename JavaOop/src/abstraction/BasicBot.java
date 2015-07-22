@@ -6,7 +6,7 @@ public class BasicBot implements Robot{
 	
 	@Override
 	public void status() {
-		System.out.println("로봇 속도:" + this.speed+ "로봇 에너지 :" + this.energy);
+		System.out.print(" 로봇 속도:" + this.speed+ " 로봇 에너지 :" + this.energy);
 		
 	}
 

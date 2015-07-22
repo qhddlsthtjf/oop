@@ -5,9 +5,9 @@ public class Attack extends BasicBot {
 	
 	@Override
 	public void status() {
-		System.out.println("건로봇은");
+		System.out.print("건로봇은 ");
 		super.status();
-		System.out.println("공격력은 :" +attackPoint);
+		System.out.println(" 공격력은 :" +attackPoint);
 	}
 	
 	@Override

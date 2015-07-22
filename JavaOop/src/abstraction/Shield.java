@@ -2,16 +2,7 @@ package abstraction;
 
 public class Shield extends BasicBot {
 	private int shieldPoint;
-	@Override
-	public void charge(int energy) {
-		
-		super.charge(energy);
-	}
-	@Override
-	public void run(int speed) {
-		
-		super.run(speed);
-	}
+	
 	@Override
 	public void status() {
 		System.out.println("쉴드 로봇은");
